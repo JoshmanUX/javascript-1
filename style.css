@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #f0cd2f;
+  /* background-image: url("photos/investment.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 800px; */
+}
+
+.calculator {
+  width: 300px;
+  height: 400px;
+  /* background-color: #1b3a78; */
+    background-image: url("photos/financial.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+  padding: 20px 0px;
+}
+
+h1 {
+  color: white;
+  margin-top: -5px;
+  margin-bottom: 20px;
+  margin-left: 45px;
+  margin-right: 45px;
+  border: 2px solid #f0cd2f;
+  border-radius: 7px;
+  box-shadow: 2px 2px 15px rgba(240, 205, 47, 0.7);
+}
+
+label {
+  color: white;
+}
+
+input {
+  width: 230px;
+  height: 22px;
+  padding: 5px;
+  margin: 12px;
+  border: none;
+  outline: none;
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.3);
+  border-radius: 7px;
+}
+
+button {
+  width: 150px;
+  height: 30px;
+  border-radius: 7px;
+  font-size: 16px;
+  border: 1px solid #163898;
+  color: #163898;
+  background-color: #f0cd2f;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #ddba20;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+p {
+  margin-top: 25px;
+  font-weight: 700;
+}
